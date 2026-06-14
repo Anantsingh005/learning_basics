@@ -1,6 +1,97 @@
-.face {
-    height: 400;
-    width: 400;
-    border-radius: 50%;
+/*
+
+*{
+    background-color: bisque;
+}
+
+.body {
+    width: 400px;
+    height: 400px;
     background-color: yellow;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.lip {
+    width: 200px;
+    height: 75px;
+    background-color: rgba(138, 27, 27, 0.864);
+    border-radius: 0px 0px 50px 50px;
+    /* margin:  10px auto; */
+/* position: absolute;
+top: 280px;
+left: 670px; */
+/* margin: 280px 0px 0px 670px; 
+}
+
+h1{
+    color: rgb(55, 37, 154);
+    text-align: center;
+    font-size: larger;
+}
+
+.eye{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.leye, .Reye{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+}
+*/
+
+*{
+    background-color: bisque;
+}
+
+h1 {
+    color: rgb(55, 37, 154);
+    text-align: center;
+}
+
+.body {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Left Eye */
+.leye {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+/* Right Eye */
+.Reye {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 90px;
+}
+
+/* Smile */
+.lip {
+    width: 200px;
+    height: 80px;
+    background-color: brown;
+    border-radius: 0 0 100px 100px;
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
 }
