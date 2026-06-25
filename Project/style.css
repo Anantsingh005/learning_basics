@@ -99,3 +99,31 @@ a {
 .lib-option a {
     margin-right: 5rem;
 }
+
+.box {
+    height: 8rem;
+    background-color: #232323;
+    border-radius: .75rem;
+    margin: .5rem 0rem .5rem 0rem;
+    padding: .75rem 1rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: .85rem;
+    opacity: .83;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: .25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+}
